@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>Pharmacy Resource Guide</title>
+
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="Pharmacy Resource Guide | Optum for Workers' Compensation">
+
+		<!-- Stylesheets -->
+		
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+		<!-- Internet Explorer -->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="mapplic/mapplic-ie.css">
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrap">
+
+			<!-- Site header -->
+			<span style="height: 100px">&nbsp;</span>
+			<!-- Site content -->
+			<div id="content">
+				
+				<section id="map-section" class="inner over">
+                    
+
+					<!-- Map -->
+					<div class="map-container">
+
+						<div id="mapplic"></div>
+					</div>
+                    <div class="abbr">
+                        <h2>Abbreviations</h2>
+                        <table border="0" width="960" style="border: none;">
+                            <tbody>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>AWP</strong> = Average Wholesale Price</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>DOI</strong> = Date of Injury</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>IW</strong> = Injured Worker</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>POS</strong> = Point of Sale</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>DAW</strong> = Dispense as Written</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>EAC</strong> = Estimated Acquisition Cost</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>MAC</strong> = Maximum Allowable Cost</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>SMN</strong> = Statement of Medical Necessity</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>DF</strong> = Dispensing Fee</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>FS</strong> = Fee Schedule</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>NDC</strong> = National Drug Code</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>U&amp;C</strong> = Usual and Customary</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>DFEC</strong> = Division of Federal Employees' Compensation</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>FUL</strong> = Federal Upper Limit</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>OTC</strong> = Over the Counter</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>WAC</strong> = Wholesale Acquisition Cost</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;"><strong>DNS</strong> = Do Not Substitute</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 15px; padding-right: 15px;">&nbsp;</td>
+                                    <td style="width: 25%; border: none;">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--<table border="0" width="900" style="border: none;">
+                            <tbody>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>ALS/BLS</strong> = Advanced Life Support / Basic Life<strong> </strong>Support</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>ASP</strong> = Average Sales Price</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>AWP</strong> = Average Wholesale Price</td>
+                                    <td style="width: 25%; border: none;"><strong>BR</strong> = By Report</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>BWC</strong> = Bureau of Workers&rsquo; Compensation</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>CMS</strong> = Centers for Medicare and Medicaid Services</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>CPT</strong> = Current Procedural Terminology</td>
+                                    <td style="width: 25%; border: none;"><strong>DME</strong> = Durable Medical Equipment</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>DMEPOS</strong> = Durable Medical Equipment, Prosthetics/Orthotics and Supplies</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>DOS</strong> = Date of Service</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>DWD</strong> = Department of Workforce Development</td>
+                                    <td style="width: 25%; border: none;">
+                                        <strong>EEOIC</strong> = Energy Employees Occupational
+                                        Illness Compensation
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>FS</strong> = Fee Schedule</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>HCPCS</strong> = Healthcare Common Procedure Coding System</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>HHC</strong> = Home Health Care</td>
+                                    <td style="width: 25%; border: none;"><strong>MAP</strong> = Maximum Allowable Payment</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>MAR</strong> = Maximum Allowable Reimbursement</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>MEI</strong> = Medicare Economic Index</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>MSRP</strong> = Manufacturer&rsquo;s Suggested Retail Price</td>
+                                    <td style="width: 25%; border: none;"><strong>NDC</strong> = National Drug Code</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>O&amp;P</strong> = Orthotics and Prosthetics</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>ODG</strong> = Official Disability Guidelines</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>OWCP</strong> = Office of Workers&rsquo; Compensation Programs</td>
+                                    <td style="width: 25%; border: none; padding-bottom: 10px;">
+                                        <strong>PT/OT/ST</strong> = Physical&nbsp;Therapy/<br />
+                                        Occupational Therapy/Speech Therapy
+                                    </td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>RBRVS</strong> = Resource Based Relative Value Scale</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>RN(s)</strong> = Registered Nurse(s)</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>RR</strong> = Report Required</td>
+                                    <td style="width: 25%; border: none;"><strong>RVU</strong> = Relative Value Unit</td>
+                                </tr>
+                                <tr valign="top">
+                                    <td style="width: 25%; border: none; padding-bottom: 10px; padding-right: 10px;"><strong>TENS</strong> = Transcutaneous Electrical Nerve Stimulation(or)</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>U&amp;C</strong> = Usual and Customary</td>
+                                    <td style="width: 25%; border: none; padding-right: 10px;"><strong>WC</strong> = Workers&rsquo; Compensation</td>
+                                    <td style="width: 25%; border: none;">&nbsp;</td>
+                                </tr>
+                            </tbody>
+                        </table>-->
+                       
+                    </div>
+				
+				</section>
+
+			</div>
+
+			<!-- Site footer -->
+		
+		</div>
+
+		<!-- Scripts -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/hammer.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/smoothscroll.js"></script>
+		<script type="text/javascript" src="mapplic/mapplic.js"></script>
+		<script type="text/javascript">
+            $(document).ready(function () {
+                //inline JSON
+                var data = {
+	"mapwidth":"960",
+	"mapheight":"600",
+	"levels":[
+		{
+			"id":"usa",
+			"title":"United States",
+			"map":"maps/usa.svg",
+      "minimap": "maps/usa-mini.jpg",
+      "show":  "true",
+      "locations": [
+        				{
+					"id":"al",
+					"title":"Alabama",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + 5% + $9.02</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + 5% + $11.71</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Bills shall include original underlying NDC and NDC of repackaged/relabeled product. Reimbursement is lesser of original AWP and repackaged/relabeled AWP. DF payable only to pharmacies.</p>",
+					"pin":"hidden",
+					"fill": "#b1b3b3",
+					"x":"0.6766",
+					"y":"0.6483"
+				},
+        {
+          "id": "ak",
+          "title": "Alaska",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576;\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $10.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, fee to general public, or negotiated fee.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement shall use the original manufacturer's AWP.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement shall be limited to \"medical necessity\" and for each ingredient listed separately by NDC plus a $10 DF.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1807",
+          "y": "0.7783"
+        },
+        {
+          "id": "az",
+          "title": "Arizona",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 5% + $7.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 15% + $7.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement is based on actual medication dispensed. Medicines dispensed by either pharmacy or physician subject to FS.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Bills for physician dispensed/repackaged medications shall include NDC of medication dispensed and original manufacturer NDC. Reimbursement based on NDC of underlying medication product.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement based on AWP of underlying medication product and bills shall include NDC for each ingredient used.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2609",
+          "y": "0.5583"
+        },
+        {
+          "id": "ar",
+          "title": "Arkansas",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.13</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $5.13</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, provider's U&C, or MCO/PPO contract price.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>No DF to physicians. OTCs billed by physicians reimbursed at provider's charge or up to 20% above cost of item. Dispensing practitioners must obtain permit (from state) and demonstrate need prior to dispensing approval.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5786",
+          "y": "0.5850"
+        },
+        {
+          "id": "ca",
+          "title": "California",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 17% + $7.25</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 17% + $7.25</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>FS set at 100% of current Medi-Cal fee schedule.<br />Lesser of AWP - 17% / MAC or FUL or U&C plus a DF</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>If NDC of dispensed medication not in Medi-Cal but NDC of underlying medication is, use NDC of underlying medication. If NDC from original labeler not in Medi-Cal, max fee is 83% of AWP of lowest priced therapeutically equivalent medication plus relevant DF.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Billed using NDC of each ingredient. If no NDC, ingredient not reimbursable. Reimbursement for physician dispensed compounds not to exceed 300% of documented paid costs,  or $20 above.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1359",
+          "y": "0.4417"
+        },
+        {
+          "id": "co",
+          "title": "Colorado",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $4.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $4.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>If AWP ceases, substitute WAC + 20%.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>For all repackaged medications use AWP and NDC of underlying medication.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Rates for prescription strength topical compounds categorized according to four state-specific Z codes. Fees represent maximum reimbursable amount. All compound ingredients must be listed by quantity used. Certain topicals without a prescription will be a fee of $30 for a 30-day supply. Certain pain patches will be $70 for a 30-day supply.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3703",
+          "y": "0.4417"
+        },
+        {
+          "id": "ct",
+          "title": "Connecticut",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $8.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement lesser of NDC for underlying medication from manufacturer or therapeutic equivalent medication product from manufacturer NDC. If information pertaining to original manufacturer is not provided or is unknown, payer may select NDC and associated AWP for reimbursement.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8693",
+          "y": "0.2900"
+        },
+        {
+          "id": "dc",
+          "title": "Washington DC",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p>",          
+          "pin": "hidden",
+          "fill": "#000000",
+          "x": "0.8568",
+          "y": "0.4417",
+          "zoom":  "1"
+        },
+        {
+          "id": "dc-2",
+          "title": "Washington DC",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p>",          
+          "pin": "hidden",
+          "fill": "#000000",
+          "x": "0.8568",
+          "y": "0.4417",
+          "zoom":  "1"
+        },
+        {
+          "id": "de",
+          "title": "Delaware",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 31.3% + $3.22 DF</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 37.5% + $4.02 DF</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of provider's U&C, negotiated contract amount or FS.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement based on AWP for underlying medication product,  as identified by its NDC, from original labeler. Physicians dispensing from office do not receive DF. No practitioner, unless properly licensed, shall dispense a controlled substance beyond  a medically necessary 72-hour supply.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Billed listing each ingredient and separately calculating charge using NDC; single compounding fee of $10 per prescription.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8391",
+          "y": "0.3950"
+        },
+        {
+          "id": "fl",
+          "title": "Florida",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $4.18</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $4.18</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement at FS except where employer/carrier or entity \"acting on behalf of\" employer/carrier directly contracts with provider seeking lower reimbursement.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>AWP for repackaged/relabeled medications dispensed by \"dispensing practitioner\" shall be AWP of original manufacturer/underlying  medication + 12.5% + $8.00 DF. Must include original NDC.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Permitted when prescribed formulation not commercially available and reimbursement shall be AWP of each ingredient + $4.18 DF.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7766",
+          "y": "0.7517"
+        },
+        {
+          "id": "ga",
+          "title": "Georgia",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $4.31</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $6.45</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement based on current published manufacturer's AWP of product on date of dispensing.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Bills must include NDC of original manufacturer/distributor's stock package.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Must be billed by the compounding pharmacy. Reimbursement shall be the sum of AWP for each  ingredient - 50% plus a single compound fee of $20. Reimbursement limited to compounds containing three or fewer active ingredients.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7318",
+          "y": "0.6200"
+        },
+        {
+          "id": "hi",
+          "title": "Hawaii",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + 40%</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + 40%</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Repackaged medications reimbursed at fee schedule based on original manufacturer NDC.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursed at fee schedule based upon gram weight of each underlying ingredient. AWP shall be that set by the original manufacturer.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3766",
+          "y": "0.8833"
+        },
+        {
+          "id": "id",
+          "title": "Idaho",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $8.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement is lesser of FS, billed charge or charge agreed to pursuant to contract.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement based on AWP of original manufacturer. Physicians not reimbursed a DF or compounding fee.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursed at sum of AWP of each individual medication, plus a $5.00 DF and $2.00 compounding fee. Ingredients of compounds require NDC of original manufacturer.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2526",
+          "y": "0.2533"
+        },
+        {
+          "id": "il",
+          "title": "Illinois",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Insurer pays all necessary and reasonable costs.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>medications dispensed outside of licensed pharmacy are AWP plus $4.18 and repackaged medications use AWP of underlying medication as identified by NDC from original labeler.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6245",
+          "y": "0.3933"
+        },
+        {
+          "id": "in",
+          "title": "Indiana",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement for repackaged medications dispensed (other than retail/mail pharmacy) use AWP of  original manufacturer. If NDC not determined, max reimbursement is lowest cost generic for prescribed/dispensed medication.<br><br>Doctors dispensing medications from their office(s) are only entitled to receive reimbursement for medications dispensed during the first seven days including DOI.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6714",
+          "y": "0.4100"
+        },
+        {
+          "id": "ia",
+          "title": "Iowa",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5609",
+          "y": "0.3500",
+            "zoom":  "1"
+        },
+        {
+          "id": "ks",
+          "title": "Kansas",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $3.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 15% + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursed at FS based on original manufacturer's NDC and require prior approval of carrier.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Same as physician dispensing.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4880",
+          "y": "0.4767"
+        },
+        {
+          "id": "ky",
+          "title": "Kentucky",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP* + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee<br>*Of lowest priced therapeutically equivalent in stock</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement at lower amount permitted if agreed.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement based on AWP of original NDC. DF only payable to licensed pharmacist. Doctors are restricted to dispensing only a 48-hour supply of any CII or CIII medication containing hydrocodone from their office.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>AWP of the compound medication is to be determined using the NDC of the original product from the manufacturer.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7016",
+          "y": "0.4650"
+        },
+        {
+          "id": "la",
+          "title": "Louisiana",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + 10% + $10.51</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + 40% + $10.51</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>DF is based on current state Medicaid DF.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physicians may only dispense controlled substances or medications  of concern if registered as a dispensing physician and only up to a single 48-hour supply.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Paid at FS formula for generics and bill must indicate \"COMPOUND Rx\" on form.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5807",
+          "y": "0.6833"
+        },
+        {
+          "id": "me",
+          "title": "Maine",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8984",
+          "y": "0.1550"
+        },
+        {
+          "id": "md",
+          "title": "Maryland",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>For medications or products lacking FS, carriers can assign a relative value to product/service. May be based on nationally recognized/published relative values or values assigned for similar products/services.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8193",
+          "y": "0.3867"
+        },
+        {
+          "id": "ma",
+          "title": "Massachusetts",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 16% + $3.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 16% + $3.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>FS tied to Medicaid. Single Source is lesser of AWP - 16%/EAC + DF or U&C. Multi Source/Generic is lesser of FUL/MAC/EAC + DF or U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Permitted only when necessary for immediate and proper treatment until possible for patient to have prescription filled by a pharmacy.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Additional DF amounts depending on type of ingredients.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8766",
+          "y": "0.2650"
+        },
+        {
+          "id": "mi",
+          "title": "Michigan",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $3.50</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 10% + $5.50</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of MAR in FS or provider's U&C charge.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Billed and reimbursed based on original manufacturer's NDC.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement for \"custom\" compounds limited to max of $600 (charges exceeding subject to review). Topical compounds billed using specific amount of each ingredient and original manufacturer's NDC. Reimbursed at max of AWP - 10% of original manufacturer's NDC, pro-rated for each ingredient, plus a specific DF. Ingredients without NDCs not reimbursed. Additional \"medical necessity\" requirements on custom and topical compounds. Non-compound OTC topicals addressed separately.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6828",
+          "y": "0.3033"
+        },
+        {
+          "id": "mn",
+          "title": "Minnesota",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 12% + $3.65*</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee<br><em>*Electronic. Paper for both BR and GR is AWP + $5.14</em></span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 12% + $3.65*</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>FS is bifurcated depending on paper billing and electronic or \"real-time\" billing and payment (as required) and includes MAC for GR.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Permitted if not for profit, or if for profit, physician must file with the appropriate licensing board and receive approval.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5391",
+          "y": "0.2150"
+        },
+        {
+          "id": "ms",
+          "title": "Mississippi",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Unless contract, reimbursement is lesser of provider's total billed charge or FS.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursed using NDC from underlying medication product from original labeler. DF not payable to doctors.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Bills shall include listing of each individual ingredient NDC. Reimbursement sum of AWPs of each underlying NDC medication product + $5.00 DF, and limited to a max of $300 per 120 grams per month quantity (without prior authorization).</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6318",
+          "y": "0.6433"
+        },
+        {
+          "id": "mo",
+          "title": "Missouri",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5661",
+          "y": "0.4583"
+        },
+        {
+          "id": "mt",
+          "title": "Montana",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $3.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 25% + $3.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Practice limited to certain exceptions.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3359",
+          "y": "0.1583"
+        },
+        {
+          "id": "ne",
+          "title": "Nebraska",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid actual charge billed unless payor has evidence exceeds regular charge for service by NE providers.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4630",
+          "y": "0.3517",
+          "zoom":  "1"
+        },
+        {
+          "id": "nv",
+          "title": "Nevada",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $10.94</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $10.94</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, U&C or contracted rate.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>May dispense initial supply (15 days) of CII or CIII. Include original NDC on bills. May not charge or seek reimbursement for OTC.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement based upon agreement and includes quantity prior to dispense. All compound bills shall list individual ingredients and NDC. Ingredients lacking an NDC shall not be reimbursed.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1943",
+          "y": "0.3683"
+        },
+        {
+          "id": "nh",
+          "title": "New Hampshire",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Pay reasonable value.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8755",
+          "y": "0.2183"
+        },
+        {
+          "id": "nj",
+          "title": "New Jersey",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensing limited to only 7-day supply unless more than 10 miles from nearest pharmacy. Additional limit on charges.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8484",
+          "y": "0.3417"
+        },
+        {
+          "id": "nm",
+          "title": "New Mexico",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, U&C or contract.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement at AWP - 10% with no DF. Initial physician dispense not greater than 10 days for new prescriptions.  Provider dispensed medications shall not exceed cost of generic equivalent.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursed at ingredient level, plus single DF. Bills must include original NDC. Ingredients with no NDC not reimbursable.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3474",
+          "y": "0.5717"
+        },
+        {
+          "id": "ny",
+          "title": "New York",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 12% + $4.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 20% + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>FS or lower contracted rate.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensing limited to 72 hours with exceptions. Repackaged medications reimbursed based on AWP for underlying medication.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursed at ingredient level. Payment based on sum of allowable fee for each ingredient, plus a single DF per compound. Ingredients with no NDC not reimbursable.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8255",
+          "y": "0.2650"
+        },
+        {
+          "id": "nc",
+          "title": "North Carolina",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 5%</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 5%</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or an agreement between the provider/payer.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Original manufacturer's NDC required on bills for repackaged and doctor dispensed medications. Reimbursement for doctor dispensed medications shall not exceed 95% of AWP and based on AWP of the original NDC. No outpatient provider (other than pharmacies) may receive reimbursement for any CII through CV medications over an initial 5-day supply commencing on the employee's initial treatment.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7964",
+          "y": "0.5067"
+        },
+        {
+          "id": "nd",
+          "title": "North Dakota",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> $4.00 DF</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> $5.00 DF</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Based on a markup above WAC, except compounds.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimburses compounds at AWP - 72%, plus a single item compounding fee based on level of effort (LOE). Additional restrictions on topical pain preparations. </p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4547",
+          "y": "0.1583"
+        },
+        {
+          "id": "oh",
+          "title": "Ohio",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 15% + $3.50</strong><br><span class=\"rate-small\">(DF N/A for compounds)<br>Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 15% + $3.50</strong><br><span class=\"rate-small\">(DF N/A for compounds)<br>Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of U&C or FS.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Medications supplied to IW in physician's office not considered outpatient medication and not reimbursed by BWC. Repackaged brand medications, product cost component shall be calculated using AWP of original labeler (repackaged generics not addressed). Only pharmacy providers eligible for DF.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Billed and reimbursed based on ingredient NDCs (no reimbursement for ingredients without NDC). Max product cost component reimbursement for any one compounded Rx is $400, different DF for sterile/non-sterile compounds.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7203",
+          "y": "0.3783"
+        },
+        {
+          "id": "ok",
+          "title": "Oklahoma",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C for same or similar service.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensed (non–repackaged) lesser of AWP - 10% (exclusive of DF) or payer's contracted rate. Repackaged medications reimbursed at lesser of AWP for original NDC - 10% or AWP of lowest cost therapeutic equivalent medication - 10%.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Shall be billed by compounding pharmacy and at the ingredient level. Reimbursement shall be sum of allowable fee for each ingredient, plus a single $5.00 DF. Ingredients without NDC not reimbursed.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5026",
+          "y": "0.5617"
+        },
+        {
+          "id": "or",
+          "title": "Oregon",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 16.5% + $2.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 16.5% + $2.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, provider's U&C or contract.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Compensability of physician dispensing limited to initial 10-day supply except in emergency.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Must be billed by ingredient, listing each ingredient's NDC (ingredients w/o NDC not reimbursable). Max fee = AWP - 16.5% for each ingredient + a single $10.00 compounding fee.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1578",
+          "y": "0.2050"
+        },
+        {
+          "id": "pa",
+          "title": "Pennsylvania",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + 10%</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + 10%</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>If provider's actual charge less than FS, pay actual charge.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement shall be at FS based on original manufacturer's NDC, which must be submitted on bill. If original NDC is not submitted, reimbursement shall be FS of the least expensive clinically-equivalent medication. Outpatient providers (other than licensed pharmacies) may not seek reimbursement for Schedule II medication in excess of an initial 7-day supply commencing on \"initial treatment\" for specific WC claim. Should an IW require a \"medical procedure,\" one additional 15-day supply permitted, commencing on date of procedure. Providers may not seek reimbursement for any other prescription medications in excess of an initial 30-day supply, commencing on \"initial treatment\" by a provider for specific WC claim and may not seek reimbursement for an OTC medication.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7932",
+          "y": "0.3333",
+          "zoom":  "1"
+        },
+        {
+          "id": "ri",
+          "title": "Rhode Island",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10%</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 10%</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physicians cannot bill for dispense, only to administer  medications (injectables) in office.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Compounds containing repackaged medications shall be reimbursed using NDC of the underlying medication. Compounds shall be billed by separating the ingredients by NDC and corresponding quantity. Reimbursement for topical compounds shall not exceed $500 for a 30-day supply.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8828",
+          "y": "0.2833"
+        },
+        {
+          "id": "sc",
+          "title": "South Carolina",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Billed with original NDC and reimbursed accordingly. If original NDC not provided or unknown, payer shall select most closely associated AWP.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Billed by listing each ingredient NDC and reimbursed at sum of each NDC's amount, plus a single $5.00 DF (no payment required for ingredient with no NDC).</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7766",
+          "y": "0.5767"
+        },
+        {
+          "id": "sd",
+          "title": "South Dakota",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Not to exceed U&C.</p>",          
+           "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4521",
+          "y": "0.2867"
+        },
+        {
+          "id": "tn",
+          "title": "Tennessee",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $5.10</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $5.10</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS, provider's U&C or contracted rate.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Reimbursement based on published manufacturer's AWP of product/ingredient, calculated on a per–unit basis, on date of dispense. If original manufacturer's NDC not provided on bill, reimbursement based on AWP of lowest priced therapeutically equivalent medication. Physician should not receive a DF.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Compounding fee not to exceed $25 per compound and may be charged by any entity other than physician. All compound bills shall include NDC of original manufacturer.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6766",
+          "y": "0.5250"
+        },
+        {
+          "id": "tx",
+          "title": "Texas",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + 9% + $4.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + 25% + $4.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Reimbursement at compliant contracted rate (a direct contract with provider or through a registered pharmacy network) or lesser of FS or billed amount.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensing only permitted to meet immediate needs or in rural area.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Calculate each ingredient separately (AWP in FS) plus a $15 compounding fee per prescription. Bills shall include each Rx included in the compound.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4630",
+          "y": "0.6783"
+        },
+        {
+          "id": "ut",
+          "title": "Utah",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Paid at U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensing permitted only in very limited situations.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2734",
+          "y": "0.4000"
+        },
+        {
+          "id": "vt",
+          "title": "Vermont",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $3.15</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $3.15</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or actual charge.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8547",
+          "y": "0.2033"
+        },
+        {
+          "id": "va",
+          "title": "Virginia",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Disputes use prevailing community rate.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physician dispensing only permitted with  certain specified limits (i.e., samples, emergency, not available) unless properly licensed by the Board of Pharmacy.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7995",
+          "y": "0.4400"
+        },
+        {
+          "id": "wa",
+          "title": "Washington",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $4.50</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 50% + $4.50</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>L&I (state fund) does not pay for medication dispensed in physician's office and policy is to not pay for repackaged medications.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement allows cost of ingredients, plus a $4.50 professional fee and a $4.00 compounding time fee. Must be billed with NDC for each ingredient.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1849",
+          "y": "0.0983"
+        },
+        {
+          "id": "wv",
+          "title": "West Virginia",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">NO FEE SCHEDULE</span></strong><br></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>No Controlling Rx FS – Providers bill their U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Legend medications dispensed by a physician will not be reimbursed except in emergency.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7578",
+          "y": "0.4200"
+        },
+        {
+          "id": "wi",
+          "title": "Wisconsin",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP + $3.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP + $3.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>DF only payable to pharmacist. Reimbursed at existing pharmacy fee schedule.</p>",         
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5995",
+          "y": "0.2483"
+        },
+        {
+          "id": "wy",
+          "title": "Wyoming",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 10% + $5.00</strong><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>Physicians billing for compounds must provide pharmacy invoice and pay at 130% of supplier's/manufacturer's invoice price.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Compounding pharmacies that bill are compensated per FS, per line item if ingredient determined coverable. Pharmacists/third-party billers must submit itemization for all ingredients and quantities used in compounding process.</p>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3500",
+          "y": "0.3017"
+        },
+        {
+          "id": "usdl-2",
+          "title": "Federal Services",
+          "description": "<p class=\"br\"><strong><span style=\"color: #078576\">BR</span> AWP - 15% + $4.00</strong> <span class=\"rate-small\">DFEC</span><br><strong><span style=\"color: #078576\">BR</span> AWP - 10% + $4.00</strong> <span class=\"rate-small\">non-DFEC</span><br><span class=\"rate-small\">Brand Rate &#61 (% of AWP) + Dispense Fee</span></p><p class=\"gr\"><strong><span style=\"color: #078576\">GR</span> AWP - 40% + $4.00</strong> <span class=\"rate-small\">DFEC</span><br><strong><span style=\"color: #078576\">GR</span> AWP - 25% + $4.00</strong> <span class=\"rate-small\">non-DFEC</span><br><span class=\"rate-small\">Generic Rate &#61 (% of AWP) + Dispense Fee</span></p><hr class=\"clear\"><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/icon-prg.png\" height=\"13px\" />&nbsp;<strong>Reimbursement Description</strong></p><p>Lesser of FS or U&C charge amount.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/pills-icon-prg.png\" height=\"13px\" />&nbsp;<strong>Physician Dispensed/Repackaged</strong></p><p>For Office of Workers' Compensation Programs, all medications dispensed from physician's office and submitted with codes J3490, J8499, J8999 and J9999 require accompanying original NDC. For FECA/Black Lung any doctor dispensed Rx submitted using CPT code 99070 require accompanying original NDC.</p><hr><p><img src=\"http://helioscomp.com/images/default-source/interactive-map/pharmacy-resource-guide/compounded-icon.png\" height=\"13px\" />&nbsp;<strong>Compounded Medications</strong></p><p>Reimbursement for compounds with three or less ingredients in AWP - 50% and reimbursement for compounds with four or more ingredients is AWP - 70%. Initial prescriptions for compound medication should be for a period not to exceed 90 days. Initial prescriptions for periods greater than 90 days may be subject to further review for medical necessity. Compounds shall be billed at ingredient level, including NDCs. Reimbursement for compounds with 3 or fewer ingredients shall be AWP - 50% of each NDC. Reimbursement for compounds with 4 or more ingredients shall be AWP - 70% of each NDC.</p>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2875",
+          "y": "0.9700"
+        }
+      ]
+		}
+	],
+	"minimap":"true",
+	"sidebar":"false",
+	"zoomlimit":"2"
+};
+            
+ 
+                $('#mapplic').mapplic({
+                    // source: 'usa.json',
+                    source: data,
+                    height: 900,
+                    sidebar: false,
+                    minimap: true,
+                    locations: true,
+                    zoombuttons: true,
+                    deeplinking: true,
+                    clearbutton: true,
+                    fullscreen: false,
+                    hovertip: true,
+                    developer: true,
+                    maxscale: 2,
+                    skin: null,
+                    zoom: false
+                });
+
+                $('.usage').click(function(e) {
+                    e.preventDefault();
+
+                    $('editor-window').slideToggle(200);
+                });
+                $('editor-window .window-mockup').click(function () {
+                    $('.editor-window').slideUp(200);
+                });
+            });
+
+
+	    </script>
+	</body>
+</html>

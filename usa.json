@@ -1,0 +1,500 @@
+{
+	"mapwidth":"960",
+	"mapheight":"600",
+	"levels":[
+		{
+			"id":"usa",
+			"title":"United States",
+			"map":"maps/usa.svg",
+      "minimap": "maps/usa-mini.jpg",
+      "show":  "true",
+      "locations": [
+        				{
+					"id":"al",
+					"title":"Alabama",
+          "description": "<p><strong>Brand Rate</strong></p><p>AWP + 5% + $8.92</p><p><strong>Generic Rate</strong></p><p>AWP + 5% + $11.58</p><hr><p><strong>Reimbursement Description</strong></p><p>Lesser of FS or provider's U&C.</p><hr><p><strong>Physician Dispensed/Repackaged</strong></p><p>Bills shall include original underlying NDC and NDC of repackaged/relabeled product. Reimbursement is lesser of original AWP and repackaged/relabeled AWP. DF payable only to pharmacies.</p>",
+					"pin":"hidden",
+					"fill": "#b1b3b3",
+					"x":"0.6766",
+					"y":"0.6483"
+				},
+        {
+          "id": "ak",
+          "title": "Alaska",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Medicare plus 84%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Fees not covered by a relevant FS.</li><li>Reimbursement shall be the lesser of 85% of billed charge, charge to general public or the negotiated rates.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Injections reimbursed at Average Sales Price, which is CMS times 3.375.</li><li>Reimbursement covered by FS.</li><li>Where not covered in FS, reimbursement shall be the lesser of 85% of billed charge, charge to general public or the negotiated rates.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Services provided by physicians conversion factors apply to total facility or non-facility RVU in CMS RBRVS.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>MAR for most services covered in FS.</li><li>Where not covered in FS, reimbursement shall be the lesser of 85% of billed charge, charge to general public or the negotiated rates.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1807",
+          "y": "0.7783"
+        },
+        {
+          "id": "az",
+          "title": "Arizona",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated for DME suppliers.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None for services.</li><li>Reimbursement for injectable medications requires provider to identify medication through the use of accepted industry identifier, such as an NDC, to enable payer to make appropriate payment.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement values in FS shown in dollar amounts.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2609",
+          "y": "0.5583"
+        },
+        {
+          "id": "ar",
+          "title": "Arkansas",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at \"reasonable amount\" as defined in FS.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">TENS rental limited to 30-day trial period. Should purchase if rental exceeds purchase price. Only first month rent applies to purchase price.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Lesser of U&C or the contract rate.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Medicare RBRVS and state WC-specific levels found in FS. If not in Medicare RBRVS, reimbursed at U&C.</li><li>Reimbursement for injections (J codes) includes allowance for CPT 96372 in addition to AWP of each medication (only one administration fee owed when multiple medications are given as one injection).</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Medicare RBRVS and state WC-specific conversion factors found in FS. If not in Medicare RBRVS, reimbursed at U&C.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>FS based on Medicare RBRVS and state WC specific conversion factors. General reimbursement is the lesser of the provider's U&C, FS or MCO/PPO contract price.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5786",
+          "y": "0.5850"
+        },
+        {
+          "id": "ca",
+          "title": "California",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Medicare plus 20%. If considered a \"dangerous device\" and dispensed by a physician, reimbursement shall be lesser of Medicare plus 20%, 120% of documented paid cost plus applicable dispensing fee or 100% of documented paid cost plus $250. DMEPOS that is \"integral\" part of procedure (ASC, hospital, etc.) not separately reimbursed.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Applicable Medicare DMEPOS FS including some purchase/rental stipulations.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Ambulance reimbursed at 120% Medicare plus 2.4% inflation. If not in Medicare, then U&C.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>In absence of FS, reimbursement negotiated. Rates should be negotiated at time authorization for services is sought.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Rates listed in FS (RBRVS based).</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1359",
+          "y": "0.4417"
+        },
+        {
+          "id": "co",
+          "title": "Colorado",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME/O&P reimbursed at Colorado Medicare HCPCS MARs (January 2015 version). If no code exists in Medicare, reimbursed 100% of Colorado Medicaid (January 2015) FS. If no code exists in Medicare or Medicaid, reimburse supplier's published MSRP less 20%. If no FS value or MSRP, pay 120% of cost for item as indicated on the supplier's invoice.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Certain HCPCS ambulance A code rates listed in FS as applicable.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Rates in FS for home infusion therapy and nursing with state-specific codes. Per-diem rates only payable when licensed professionals (RNs) providing \"reasonable and necessary\" skilled assessment and evaluation services in home. Skilled nursing fees separately payable when nurse travels to injured workers' home to perform evaluations, education and coordination of care. Infusion therapy medication cost portion based on Medicare ASP (If no ASP, use AWP).</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>PT/OT reimbursed per FS (RBRVS-based; conversion factor update annually) Physical medicine supplies reimbursed according to DMEPOS rules.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Instruction/application of TENS billed under education code in medicine FS (conversion factor updated annually). Shipping and handling charges are not separately payable for DMEPOS.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3703",
+          "y": "0.4417"
+        },
+        {
+          "id": "ct",
+          "title": "Connecticut",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at acquisition price, including sales tax, plus 30%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Only for short term usage < 60 days, monthly rental is 1/12 acquisition price plus 30% not to exceed 60 days.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Not addressed. Agreed upon between provider and payer. HCPCS injection code reimbursement formula shall be acquisition price plus 30%, including sales tax.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Payment for services based on FS using CPT codes with corresponding values.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Reimburse custom orthotics and prosthetics based on L codes listed in FS unless written agreement between insurer and provider for different reimbursement. All other O&P reimbursed at 130% of acquisition cost (invoice, including sales tax) plus 30%.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8693",
+          "y": "0.2900"
+        },
+        {
+          "id": "dc",
+          "title": "Washington DC",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME, supplies and O&P reimbursed at Medicare plus 13%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Medicare plus 13%. If no Medicare rate, reimbursement is at the prevailing community rate.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Medicare plus 13%.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#000000",
+          "x": "0.8568",
+          "y": "0.4417",
+          "zoom":  "1"
+        },
+        {
+          "id": "dc-2",
+          "title": "Washington DC",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME, supplies and O&P reimbursed at Medicare plus 13%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Medicare plus 13%. If no Medicare rate, reimbursement is at the prevailing community rate.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Medicare plus 13%.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#000000",
+          "x": "0.8568",
+          "y": "0.4417",
+          "zoom":  "1"
+        },
+        {
+          "id": "de",
+          "title": "Delaware",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at the lesser of FS or the provider's actual charge.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>If in FS, then FS rate. If not in FS, 68% of charges.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursed at lesser of FS or the provider's actual charge.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed at lesser of FS or the provider's actual charge.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>FS is relative value based, using Delaware-specific geographically adjusted factors (by geo-zips). If not found in FS then reimbursement is 68% of provider's actual charge.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8391",
+          "y": "0.3950"
+        },
+        {
+          "id": "fl",
+          "title": "Florida",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated. Supplier should obtain written authorization and payment agreement from insurer prior to furnishing.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Prior authorization required on TENS rentals.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home health delivered through home health agency reimbursed as agreed between provider and payer.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement based on established reimbursement amounts listed in the FS per CPT code.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Not to exceed 20% above cost for TENS.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7766",
+          "y": "0.7517"
+        },
+        {
+          "id": "ga",
+          "title": "Georgia",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at cost times 1.5 plus a $4 handling charge. Charges exceeding $50 must include a copy of the wholesale vendor invoice(s) showing actual cost. Custom O&P and rental equipment exempt from FS and reimbursed based on usual, customary and reasonable charges.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Rental equipment exempt from FS reimbursed based on usual, customary and reasonable charges or by agreement.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Ambulance and air reimbursed at FS. If not in FS, then U&C or negotiated rate applies.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>FS or negotiated rate includes hourly and per-visit rates for nursing. PT/OT in home reimbursed according to listed FS plus $36.08/visit.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>PT/OT services with CPT codes listed in FS, including some state specific codes.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>In general, reimbursement shall be the lesser of FS or billed charges.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7318",
+          "y": "0.6200"
+        },
+        {
+          "id": "hi",
+          "title": "Hawaii",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME/O&P reimbursed at Medicare plus 10%. Supplies reimbursed at cost plus 40%, includes shipping charges.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Medicare plus 10%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Medicare RBRVS plus 10% or the state supplemental FS, where applicable.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Medicare RBRVS plus 10% or the state supplemental FS, where applicable.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3766",
+          "y": "0.8833"
+        },
+        {
+          "id": "id",
+          "title": "Idaho",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>\"Acceptable charge.\"</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>If service is included in the listed/recognized CPT category, apply category's conversion factor.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>If service is included in the listed/recognized CPT category, apply category's conversion factor.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement \"acceptable charge\" shall be lesser of FS or billed charge, or the charge agreed to pursuant to a written contract.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2526",
+          "y": "0.2533"
+        },
+        {
+          "id": "il",
+          "title": "Illinois",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed based on MAR in FS for specific HCPCS code per region or geo-zip, depending on DOS.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursed based on MAR in FS. If no FS, then U&C.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursed based on MAR in the FS for specific CPT code per region or geo-zip, depending on DOS.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed based on MAR in the FS for specific CPT code per region or geo-zip, depending on DOS.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>FS contains MAR per specific CPT/HCPCS codes. General reimbursement shall be lesser of FS or the provider's actual charge.</li><li>If not in the FS, paid at the provider's U&C.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6245",
+          "y": "0.3933"
+        },
+        {
+          "id": "in",
+          "title": "Indiana",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>80th percentile of IN U&C.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>May be reduced to 80% of U&C for state specific geo-zips. Reimbursement may not exceed the actual charge invoiced by provider.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6714",
+          "y": "0.4100"
+        },
+        {
+          "id": "ia",
+          "title": "Iowa",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Providers U&C; no controlling FS.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5609",
+          "y": "0.3500",
+            "zoom":  "1"
+        },
+        {
+          "id": "ks",
+          "title": "Kansas",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at the lesser of contract or FS MAR of Medicare plus 40%. If no Medicare, then cost plus 40%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>ALS/BLS: Billed Charges less 10%.</li><li>Special Services (specialized life support, extra attendants, administration of medication) if warranted, Billed Charges less 15%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home Care increases Unit Value by 50%. Bills for J codes required to include metric quantity of medication used and the NDC of the medication being dispensed (if no NDC, medication/biological shall be identified on CMS-1500 or equivalent form as being a supply).</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>PT/OT limited to lesser of contract or FS MAR.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Lesser of contract or MAR, with conversion factor in FS or BR.</li><li>Tax, freight and handling are not reimbursable costs for DME.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4880",
+          "y": "0.4767"
+        },
+        {
+          "id": "ky",
+          "title": "Kentucky",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME reimbursed as listed in FS. HCPCS with no listed value and listed as BR reimbursed at the lesser of invoice plus 20% or the manufacturer's invoice plus 20%. Prosthetic devices and items custom-made for individuals and billed by custom-maker not included in DME definition and reimbursed at U&C.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Total rental cost of DME cannot exceed purchase cost.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Medicare plus 30%. Several HCPCS ambulance A codes listed in FS tables with rates based on zip code.</li><li>Special Services (specialized life support, extra attendants, administration of medication) if warranted, Billed Charges less 15%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursed per FS for the CPT code or an agreed upon rate.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>FS includes MAR for some CPT codes.</li><li>Reimbursement for physical medicine modality and/or procedure codes limited to 60 minutes collectively (with some exceptions). Procedures designated as 30- or 15-minute intervals shall not collectively exceed 60 minutes. CPT 97010 not reimbursable.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Reimbursement at lesser amount permitted if agreed upon. Generally BR services reimbursed on individual basis.</li><li>Sales tax, shipping and handling may be added to FS value but documentation of these additional costs must be provided.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7016",
+          "y": "0.4650"
+        },
+        {
+          "id": "la",
+          "title": "Louisiana",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">All DME and Services (not supplies) based upon Lesser of Reimbursement Formula.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Rental cost cannot exceed purchase price.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>FS Rates.</li><li>Special Services (specialized life support, extra attendants, administration of medication) if warranted, Billed Charges less 15%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Based on FS MAR or FS Reimbursement Formula.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Lesser of FS, contract or provider U&C.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General Reimbursement shall be the lesser of FS MAR, contract or provider's U&C.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5807",
+          "y": "0.6833"
+        },
+        {
+          "id": "me",
+          "title": "Maine",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at FS MAP.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Some travel expenses incurred by injured worker addressed in rules and certain HCPCS ambulance A codes listed in FS.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>If included in FS, then reimbursed per FS MAP.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Per FS MAP.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>FS creates MAP for medical services by CPT or HCPCS code. The employer/insurer must pay the lesser of the provider's U&C charge or MAP.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8984",
+          "y": "0.1550"
+        },
+        {
+          "id": "md",
+          "title": "Maryland",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Services reimbursed at lesser of the FS MAR (per conversion factor) or the authorized provider's U&C charge.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Services reimbursed at the lesser of FS MAR (per conversion factor) or the authorized provider's U&C charge.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be the lesser of FS or the provider's U&C charge.</li><li>For products or services lacking a FS, carriers may assign a relative value for reimbursement.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8193",
+          "y": "0.3867"
+        },
+        {
+          "id": "ma",
+          "title": "Massachusetts",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at FS MAR listed by HCPCS. Unlisted items are reimbursed at the lesser of U&C or Adjusted Acquisition Cost plus markup.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">\"Capped Rental Items\" shall be a maximum of 15-month rental or until rental fees equal purchase price.</p><ul><li>Less than 1 month shall be prorated</li><li>1 to 3 months shall be 10% new purchase fee</li><li>4-15 months shall be 75% monthly fee for months 1-3</li></ul></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Rates listed in FS.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Rates listed in 114.3 CMR 50.00 and includes PT/OT in home.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>State-specific FS for rehabilitation, restorative, speech/language pathology and audiological services governs PT/OT and is listed by CPT code with specific reimbursement rates.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement lesser of FS MAR or U&C shipping and handling may be included in \"adjusted acquisition cost\" for unlisted items and certain hearing aids.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8766",
+          "y": "0.2650"
+        },
+        {
+          "id": "mi",
+          "title": "Michigan",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at FS MAR state or Medicare plus 5%. DME/supplies lacking HCPCS or a FS MAR (over $35) shall be reimbursed on a sliding scale of invoice cost plus a percentage markup.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Requires copy of the prescription with the initial billing. With exception of oxygen equipment, rented DME is considered purchased once monthly rental allowance exceeds purchase price or payment of 12 months rental, whichever comes first.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Billed and paid as BR. Reimbursed at lesser of provider's U&C charge or reasonable payment.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>State FS MAR based on RBRVS.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be the lesser of state specific FS MAR or provider's U&C. If a procedure code does not have a listed relative value, or is noted BR, reimbursement shall be lesser of provider's U&C charge or reasonable payment.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6828",
+          "y": "0.3033"
+        },
+        {
+          "id": "mn",
+          "title": "Minnesota",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Use RVU calculation in the FS. If not listed in the FS, reimbursement shall be 85% of U&C.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>\"Non-emergency\" transportation is not addressed in the FS.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Use HCPCS codes and RVUs found in the FS for home care and aide.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Use RVU calculation in FS. There are varied reimbursement rates for multiple procedures.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5391",
+          "y": "0.2150"
+        },
+        {
+          "id": "ms",
+          "title": "Mississippi",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursed at the lesser of FS or billed charge Supplies/Materials provided by physician over/above those usually included reimbursed at \"reasonable rate\".</p><li><strong>Rental requirements</strong></li><p class=\"mes\">If rental cost more than purchase, then payer shall purchase. Prior authorization required before purchase or rental agreements for TENS.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursed at FS rates.</li><li>If no FS, then Optum U&C.</li><li>If no U&C, then Medicare plus 30%.</li><li>If no Medicare, then billed charges.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home health and therapy reimbursed at lesser of FS or the provider's total billed charge. Nurse practitioner reimbursed at 85% of FS rate.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed a FS MAR for specific CPT codes. PT/OT assistant reimbursed at 85% of FS value.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be lesser of FS or the total billed charge. The FS has specific MAR values for CPT/HCPCS codes. FS allowable includes shipping and handling.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6318",
+          "y": "0.6433"
+        },
+        {
+          "id": "mo",
+          "title": "Missouri",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Fair and reasonable reimbursement.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5661",
+          "y": "0.4583"
+        },
+        {
+          "id": "mt",
+          "title": "Montana",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursement as set in FS. If item not found in FS, reimbursement at lesser of cost plus freight plus $30/30%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>As listed in FS.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>As listed in FS.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>As listed in FS.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Healthcare provider (related to professional FS) who is referred by \"designated treating physician\" compensated at 90% of FS. For professional services where a procedure is not covered by FS, reimbursed at 75% of U&C.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3359",
+          "y": "0.1583"
+        },
+        {
+          "id": "ne",
+          "title": "Nebraska",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at actual billed charge unless payer has evidence actual charge exceeds regular charge for service by Nebraska providers.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimburse at actual charge.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home services add 50% to listed FS amount.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse at FS MAR using physical medicine conversion factor.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be lower of FS or provider's billed charge.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4630",
+          "y": "0.3517",
+          "zoom":  "1"
+        },
+        {
+          "id": "nv",
+          "title": "Nevada",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at the provider's documented cost (excluding tax and freight) plus 20% or written agreement. Custom O&P reimbursed at Medicare plus 40% or written agreement if lower.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>State-specific codes for home health care, nursing assistant care and skilled home healthcare, which includes home PT/OT.</li><li>No established reimbursement for home infusion therapy.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Some services listed in FS are based upon Relative Value conversion factor.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Tax and freight are not reimbursable costs for DME.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1943",
+          "y": "0.3683"
+        },
+        {
+          "id": "nh",
+          "title": "New Hampshire",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>No established FS. Shall pay full amount of provider's bill unless payer can show just cause as to why total amount should not be paid.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8755",
+          "y": "0.2183"
+        },
+        {
+          "id": "nj",
+          "title": "New Jersey",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8484",
+          "y": "0.3417"
+        },
+        {
+          "id": "nm",
+          "title": "New Mexico",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at invoice cost plus 25% plus shipping, handling and taxes or lesser of U&C or contract. Reasonable charges for O&P fitting can be included and invoice may be requested.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Rental shall be less than 90 days and first 30 days rental price applies to purchase price.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimburse at FS amounts listed for home health codes 99500-99602 and applicable CPT codes.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse at FS amounts listed for physical medicine codes 97001-97799.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3474",
+          "y": "0.5717"
+        },
+        {
+          "id": "ny",
+          "title": "New York",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at rate based upon state Medicaid rate. For footwear or items not recognized in Medicaid, reimbursement at lesser of acquisition cost to provider plus 50% or U&C. Reimbursement lower than FS is allowed for DME with a written agreement.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Maximum monthly rental charge for DMEPOS shall not exceed lower of monthly rental charge to general public or price determined by NY Dept. of Health. The total accumulated monthly rental charges are not to exceed fee amount allowed under Medicaid.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>For PT/OT in home, add 50% to the listed FS value and requires documentation explaining necessity of home care versus office/outpatient treatment. Home services not listed in FS not specified.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement per FS (RVU times conversion factor). Reimbursement lower or greater than FS allowed for PT/OT with written agreement.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>FS is maximum rate for DMEPOS. There are no separate/additional payments for shipping, handling and delivery.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8255",
+          "y": "0.2650"
+        },
+        {
+          "id": "nc",
+          "title": "North Carolina",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at FS MAR for DME and supplies provided in context of professional services which equals 100% of the rates established for North Carolina in the CMS DMEPOS FS.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Rentals must be prior authorized.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Refer to HCPCS ambulance A codes if listed in FS.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimburse at FS if listed by specific CPT codes. If not listed, reimburse at U&C or an agreed upon rate.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Physical medicine services reimbursed at Medicare plus 40% base amount. Some specific codes/rates are provided in the FS.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>State establishes FS MAR for some items listed specifically by HCPCS codes.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7964",
+          "y": "0.5067"
+        },
+        {
+          "id": "nd",
+          "title": "North Dakota",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Medicare plus 20%. If not recognized by Medicare, reimburse at 85% of the cost-to-charge ratio, not to exceed 50th percentile of U&C database for ND. Certain electromedical equipment and related supplies are only reimbursed under the preferred provider agreement.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Limits monthly rental payments for Capped Rental items to 13 months.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimburse at FS MAR.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimburse at FS MAR Home Health/Nursing usually reimbursed on per visit basis unless approved otherwise.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse at FS MAR is divided into \"facility\" and \"non-facility\".</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4547",
+          "y": "0.1583"
+        },
+        {
+          "id": "oh",
+          "title": "Ohio",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at Medicare plus 20% when recognized by CMS. Items not recognized by CMS, reimburse at BWC FS. BR codes priced at manufacturer's invoice price plus a negotiated percentage not to exceed certain maximums.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">DME considered to be purchased when rental has reached the purchase fee. TENS rental generally limited to 30 days after surgery. Reimbursement of rental costs considered only for trial period that the TENS unit was actually used before treatment discontinued.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Not Reimbursable</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Current general medicine codes (CPT codes 90281-96999, 99000-99600) reimbursed at 142% of Medicare</li><li>Home health agency nursing service fees determined by the BWC</li><li>Home infusion therapy rates negotiated per diem</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse per CPT codes and rates listed in the FS. Current physical medicine codes (CPT codes 97001-98943) are reimbursed at 142% of Medicare.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement for HCPCS codes at Medicare plus 20% or rate established in FS for items not recognized by Medicare.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7203",
+          "y": "0.3783"
+        },
+        {
+          "id": "ok",
+          "title": "Oklahoma",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse at lesser of the provider's U&C or 90% of allowable in FS (Medicare). If no FS amount or Medicare allowable, reimburse at the lesser of provider's U&C or 10% above manufacturer's invoice price, plus the reasonable and customary acquisition cost of item(s) to the provider.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Prior authorization required on rental to compare cost to purchase.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Non-emergency ambulance reimbursed at Medicare plus 25%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>FS MAR listed by CPT code.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed at FS MAR listed by CPT code.</li><li>PT/OT at home reimburse at FS plus 50%.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5026",
+          "y": "0.5617"
+        },
+        {
+          "id": "or",
+          "title": "Oregon",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse new items at the lesser of FS or the provider's usual fee. Reimburse used items at the lesser of 75% of FS or the provider's usual fee. Rented (monthly) items reimbursed at the lesser of 10% of FS or the provider's usual fee with specific rental codes.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">Unless otherwise provided in the contract, after a rental period of 13 months the item is considered purchased. Insurer may purchase rental item anytime within the 13 month rental period with a credit of 75% of rental paid toward the purchase.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Ambulance services reimbursed at the provider's usual fee for certain HCPCS codes.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home health care reimbursed using most current CPT codes in accordance with medical provider fee formula at lesser of the FS MAR or provider's usual fee.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed using the most current CPT codes in accordance with medical service provider fee formula at lesser of the FS MAR or the provider's usual fee.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be 80% of the provider's usual fee when no MAR or fixed FS amount is established.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1578",
+          "y": "0.2050"
+        },
+        {
+          "id": "pa",
+          "title": "Pennsylvania",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse DME/Supplies at FS MAR listed by HCPCS codes. If no FS MAR, reimburse at the lesser of the actual charge or 80% of U&C.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimburse at MAR as listed in the FS or, if no FS MAR, reimburse at the lesser of the actual charge or 80% of U&C.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimburse at MAR as listed in the FS or, if no FS MAR, reimburse at the lesser of the actual charge or 80% of U&C.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse at MAR as listed in the FS or, if no FS MAR, reimburse at the lesser of the actual charge or 80% of U&C.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Reimbursement for DME, supplies, and services listed in FS based upon Medicare plus 13%.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7932",
+          "y": "0.3333",
+          "zoom":  "1"
+        },
+        {
+          "id": "ri",
+          "title": "Rhode Island",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimburse as listed in the FS.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">The sum of payments for rental items should not exceed the purchase price over life of claim. No additional payments should be allowed upon reaching the purchase price.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>If not recognized in the FS, reimbursement should not exceed U&C.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>State-specific codes (X7001 - X7005) shall be used to code physical and occupational therapist services.</ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Reimbursement of interpreters should not exceed U&C.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8828",
+          "y": "0.2833"
+        },
+        {
+          "id": "sc",
+          "title": "South Carolina",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Lesser of FS MAP as or U&C DME/supplies not listed in the FS are reimbursed at the actual cost plus 20%.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Home health rates are not addressed.</li><li>Nurse practitioners reimbursed at 85% of the FS. Cost of injectable pharmaceuticals must be billed using appropriate HCPCPS code with the medication charge based on AWP.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Lesser of the FS MAP, listed by CPT/HCPCS code or the provider's U&C.</ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement is the lesser of the FS MAP, by listed CPT/HCPCS code, or the provider's U&C. Payment for other services not included in FS based on provider's U&C or negotiated rate.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7766",
+          "y": "0.5767"
+        },
+        {
+          "id": "sd",
+          "title": "South Dakota",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME/Supplies are reimbursed at 80% of the billed rate. Certain O&P fitting manufacturer listed in the physician FS are reimbursed at the lesser of FS or U&C.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Services not listed in the FS are reimbursed at 80% of the billed rate.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Services and re-evaluations reimbursed as listed in the FS, by CPT Code.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",          
+           "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4521",
+          "y": "0.2867"
+        },
+        {
+          "id": "tn",
+          "title": "Tennessee",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">DME/supplies (other than implants) recognized by Medicare shall be reimbursed at the lesser of Medicare or the billed charge.</p><ul><li>Items not recognized by Medicare with a billed charge of less than $100 shall be reimbursed at 80% of the billed charge</li><li>Items with a billed charge greater than $100 shall be reimbursed at cost plus 15% but not to exceed $1,000</li><li>CO&P reimbursed at Medicare plus 15%</li></ul><li><strong>Rental requirements</strong></li><p class=\"mes\">DME rental fees applicable in instances of short-term use. The maximum allowable rental fee shall be Medicare. First month fees apply to the purchase. Provider shall use RR modifier when billing rental.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Ambulance services reimbursed at the lesser of the submitted charge or Medicare plus 50%.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursed at a maximum of U&C (80% of billed charges). Certain care by licensed professionals is not considered home health care. Injection reimbursement allowed for both administration of the medication and the medication itself at AWP.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursed at Medicare plus 30%.</li><li>Various charge calculations for multiple modalities on the same visit.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>General reimbursement shall be lesser of provider's usual charge, FS or the negotiated/contract rate.</li> <li>\"Usual and customary\" when used in rules means 80% of a specific provider's billed charges.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.6766",
+          "y": "0.5250"
+        },
+        {
+          "id": "tx",
+          "title": "Texas",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursement shall be at Medicare plus 25%.</p><ul><li>Where not recognized by Medicare, or no contract amount, reimbursement shall be at Medicaid plus 25%</li><li>Where no Medicaid amount, reimbursement shall be provider's U&C or a Fair and Reasonable amount</li><li>Contract reimbursement rates permitted under compliant and negotiated contract rates</li></ul><li><strong>Rental requirements</strong></li><p>None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><p>Reimbursement shall be at Medicare plus 25%.</p><ul><li>Where not recognized by Medicare, or no contract amount, reimbursement shall be at Medicaid plus 25%</li><li>Where no Medicaid amount, reimbursement shall be provider's U&C or a Fair and Reasonable amount</li><li>Contract reimbursement rates permitted under compliant and negotiated contract rates</li></ul><hr><p><strong>Home Health rate(s)</strong></p><p>Reimbursement shall be at Medicare plus 25%.</p><ul><li>Where not recognized by Medicare, or no contract amount, reimbursement shall be at Medicaid plus 25%</li><li>Where no Medicaid amount, reimbursement shall be provider's U&C or a Fair and Reasonable amount</li><li>Contract reimbursement rates permitted under compliant and negotiated contract rates</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Physical Medicine reimbursed per Medicare, with a state-specific conversion factor (updated annually based on MEI).</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.4630",
+          "y": "0.6783"
+        },
+        {
+          "id": "ut",
+          "title": "Utah",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">No reimbursement specifically stated for suppliers. Providers (special or unusual supplies, materials) may be billed at cost plus a 15% restocking fee. No fee allowed for TENS unless prescribed by physician and supported by prior diagnostic testing showing efficacy.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimburse at hourly rates or visit listed for Home Healthcare codes.</li><li>Home Infusion to be done with direct provider contract. If contract not established, reimburse at HHC rates and pay U&C/cost plus 15% for medications and supplies.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimburse per the FS adopted RBRVS system. All providers billing under CPT 97001-97610 are limited to payment of a maximum of three procedures/units per visit or six procedures if treating different sites, even if billing for additional procedures.</li><li>Physicians and physical therapists may bill for up to two modalities/procedures per day. With prior-authorization, may make additional billing when justified.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement determined by multiplying the RVU for the CPT code by the relevant conversion factor. Care not addressed in FS payer and the provider may agree to a reasonable fee.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2734",
+          "y": "0.4000"
+        },
+        {
+          "id": "vt",
+          "title": "Vermont",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Supplies and DME reimbursed at the listed FS rates. Items not listed in the FS reimbursed at lesser of 83% of the charge or 150% of the cost.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursement at listed FS MAR. Items not in the FS are reimbursed at 83% of the billed charge.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursement at listed FS MAR. Items not in the FS are reimbursed at 83% of the billed charge.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement at listed FS MAR. Items not in the FS are reimbursed at 83% of the billed charge.</li><li>Various charge calculations for multiple modalities on the same visit.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.8547",
+          "y": "0.2033"
+        },
+        {
+          "id": "va",
+          "title": "Virginia",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Bill disputes arising will use the prevailing community rate.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7995",
+          "y": "0.4400"
+        },
+        {
+          "id": "wa",
+          "title": "Washington",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><ul><li>Reimbursement for State Fund claims shall be listed at FS MAR</li><li>Reimbursement for Self Insured claims shall be listed at FS MAR or the contract rate</li><li>Specific coverage requirements and codes for TENS. Some TENS no longer reimbursed</li><li>Reimbursement for BR prosthetic items and medical or surgical supplies shall be at 80% of billed charge</li></ul><li><strong>Rental requirements</strong></li><p class=\"mes\">Rental for more than 60 days requires prior authorization.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursement shall be at the listed FS rates.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursement at listed (state specific) HHC codes FS MAR.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement at listed FS MAR. The daily max for PT/OT is $124.44. The conversion factor for most RBRVS services is $59.98. When multiple treatments or different billing codes are performed in one day, reimbursement shall be lesser of the sum of individual fee maximums, provider's U&C charge or FS maximum.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>Delivery charges, shipping and handling, tax and fitting fees are not payable separately, and shall be included in total charge.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.1849",
+          "y": "0.0983"
+        },
+        {
+          "id": "wv",
+          "title": "West Virginia",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursement shall be at Medicare plus 35%. If not recognized by Medicare, reimbursement shall be at U&C.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursement shall be at Medicare plus 35%. If not recognized by Medicare, reimbursement shall be at U&C.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursement shall be at Medicare plus 35%. If not recognized by Medicare, reimbursement shall be at U&C.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement shall be at Medicare plus 35%. If not recognized by Medicare, reimbursement shall be at U&C.</li></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>None stated.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.7578",
+          "y": "0.4200"
+        },
+        {
+          "id": "wi",
+          "title": "Wisconsin",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">None stated.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>None stated.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>Reimbursement determinations tied to DWD definition of \"Reasonable and Customary or Agreed.\"</li></ul>",         
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.5995",
+          "y": "0.2483"
+        },
+        {
+          "id": "wy",
+          "title": "Wyoming",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursement shall be at FS listed MAR, which is currently Medicare allowable for Wyoming.</p><ul><li>For items not recognized by Medicare and billed at less than $1,000, reimbursement shall be 80% of the billed charge</li><li>Items billed at greater than $1000 with the invoice provided, reimbursement shall be invoice plus 30</li><li>Items billed at greater than $1000 without an invoice, shall be reimbursed at 40% of the billed charge</li></ul><li><strong>Rental requirements</strong></li><p class=\"mes\">None stated.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>Reimbursement shall be the lesser of FS or billed charges.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursement shall be at rates established by FS. Home nursing services paid for a maximum of 12 hours per day, per provider.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Specific conversion factor/MAR for PT and OT.</li></ul><hr><p><strong>Miscellaneous</strong></p> <ul><li>\"Usual and customary\" is provider's charge to the general public for the same or similar service.</li></ul>",          
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.3500",
+          "y": "0.3017"
+        },
+        {
+          "id": "usdl-2",
+          "title": "U.S. Department of Labor",
+          "description": "<p><strong>Medical Equipment and Supplies</strong></p><ul><li><strong>DMEPOS rate(s)</strong></li><p class=\"mes\">Reimbursement shall be lesser of FS or billed charge. If not in FS, reimbursement shall be at the billed charge.</p><li><strong>Rental requirements</strong></li><p class=\"mes\">OWCP may offset cost of prior rental payments against a future purchase price.</p></ul><hr><p><strong>Transportation rate(s)</strong></p><ul><li>FS rates, if no FS rates, then other State or Federal FS rates or prevailing community rates.</li></ul><hr><p><strong>Home Health rate(s)</strong></p><ul><li>Reimbursement shall be lesser of FS or billed charge. If not in FS, reimbursement shall be billed charge.</li><li>EEOIC programs may have program specific policies for Home Health.</li></ul><hr><p><strong>Physical/Occupational therapy rate(s)</strong></p><ul><li>Reimbursement shall be lesser of FS or billed charge. If not in FS, reimbursement shall be billed charge.</p></ul><hr><p><strong>Miscellaneous</strong></p><ul><li>General reimbursement shall be lesser of billed charge or FS.</li></ul>",
+          "pin": "hidden",
+          "fill": "#b1b3b3",
+          "x": "0.2875",
+          "y": "0.9700"
+        }
+      ]
+		}
+	],
+	"minimap":"true",
+	"sidebar":"false",
+	"zoomlimit":"2"
+}
